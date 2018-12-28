@@ -27,6 +27,7 @@
 ## Routes
 
 *-Note: most of these routes are restricted to only listen to the front end for requests*
+*-Note: all routes should be preceeded by the URI /api/v1*
 
   The back end API for Plan It Change 10 is RESTful, therefore it includes index, show, update, create and destroy end points depending on the level of authorization of the user. Once a user has registered for an account, the front-end will request a JSON web token through the request route, and this will give it the authorization needed to reach the different routes that require authorization.
 
